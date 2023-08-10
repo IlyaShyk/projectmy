@@ -1,0 +1,381 @@
+*{
+    font-family: 'Roboto',  sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-weight: normal;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    margin: auto;   
+}
+.cap{
+    width: 1440px;
+    padding-top: 30px;
+    padding-left: 50px ;
+    padding-right: 80px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    
+}
+
+.features.a{
+    margin-left: 0px;
+
+}
+.features{
+    
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    font: normal 400  13px/15px 'Roboto';
+    margin-left: 24px;
+}
+
+.list_name img{
+    width: 10px;
+    height: 17px;
+    margin-right: 9.5px;
+}
+
+.list_name .first_simbol{
+    width: auto;
+    height: auto;
+    margin-left: 440px;
+    margin-right: 0px;
+}
+
+.my_cart{
+    text-align: right;
+    margin-left: 435px;
+    font: normal 400  14px/16px 'Roboto';
+}
+
+.The_Desk_Shelf_System{
+    width: 100%;
+    height: 504px;
+    background-image: url('img/first.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-bottom: 80px;
+    box-sizing: border-box;
+    padding-top: 188px;
+}
+
+.The_Desk_Shelf_System h1 {
+    font-size: 43px;
+    line-height: 46px;
+    margin-bottom: 12px;
+}
+
+.The_Desk_Shelf_System p{
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+    margin-bottom: 28px;
+}
+
+.The_Desk_Shelf_System h3{
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+
+}
+
+.Design_Inspires{
+   margin-bottom: 80px;
+}
+
+.Design_Inspires h1{
+    font-size: 43px;
+    line-height: 58px;
+    margin-bottom: 23px;
+}
+
+.Design_Inspires p{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+    margin-bottom: 26px;
+}
+
+.Design_Inspires h3{
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+.StandsPads{
+    display: flex;
+    padding: 0px 25px;
+    justify-content: space-evenly;
+    margin-bottom: 130px;
+}
+
+.StandsPads img{
+    margin-bottom: 48px;
+}
+
+.StandsPads h2{
+    font-size: 27px;
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+
+.StandsPads h3{
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+.Featured_Products{
+    margin-bottom: 24px;
+}
+
+.Featured_Products h1{
+    font-size: 33px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.Featured_Products p{
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+    margin-bottom: 52px;
+ }
+
+ .Featured_Products div{
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ .Featured_Products .rectangle{
+    margin-right: 16px;
+    width: 7px;
+    height: 7px;
+    left: calc(50% - 7px/2 + 0.5px);
+    top: 8.88px;
+    background: #000000;
+ }
+
+ .Products{
+    display: flex;
+    margin: 0px 62px 95px 63px;
+    justify-content: space-evenly ;
+    
+ }
+
+ .Products div{
+   margin-left: 25px;
+   font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    
+    color: #A0A0A0;
+ }
+ .Products div p{
+    text-align: left;
+    margin: 23px 0px 0px 0px;
+ }
+
+ .Home_Office_Inspiration{
+    width: 100%;
+    height: 504px;
+    background-image: url('img/Home\ Office\ Inspiration.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 174px;
+    margin-bottom: 116px;
+    color: white;
+ }
+
+ .Home_Office_Inspiration h1{
+    font-size: 66px;
+    line-height: 70px;
+    margin: 0px 0px 14px 0px;
+ }
+
+ .Home_Office_Inspiration p{
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    margin: 0px 0px 30px 0px;
+ }
+
+ .Home_Office_Inspiration h3{
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+ }
+
+ .Made_The_Hard_Way{
+    margin-bottom: 38px;
+ }
+
+ .Made_The_Hard_Way h1{
+    font-size: 34px;
+    line-height: 36px;
+    margin: 0px 0px 23px 0px;
+ }
+
+ .Made_The_Hard_Way p{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+    margin: 0px 0px 23px 0px;
+ }
+
+ .Make_Work_Meaningful{
+    margin-bottom: 124px;
+ }
+
+ .Make_Work_Meaningful h1{
+    font-size: 34px;
+    line-height: 36px;
+    margin: 0px 0px 23px 0px;
+ }
+
+ .Make_Work_Meaningful p{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+    margin: 0px 0px 79px 0px;
+ }
+
+ .Make_Work_MeaningfulPhoto{
+    padding: 0px 25px;
+    box-sizing: border-box;
+ }
+
+ .Make_Work_MeaningfulPhoto div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 27px;
+ }
+
+ .We_Hope_Youll_Join_Us{
+    margin-bottom: 121px;
+ }
+
+ .We_Hope_Youll_Join_Us h1{
+    font-size: 34px;
+    line-height: 36px;
+    margin-bottom: 44px;
+ }
+
+ .We_Hope_Youll_Join_Us p{
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+ }
+
+ .Design_InspiresLast{
+    width: 1340px;
+    height: 404px;
+    margin: 0px 50px 39px;
+    background-color: #9AA8B1;
+    padding-top: 120px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+ }
+
+ .Design_InspiresLast h1{
+    font-size: 43px;
+    line-height: 58px;
+    margin: 24px 0px 23px;
+ }
+
+ .Design_InspiresLast p{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+ } 
+
+ .conclusion{
+   width: 100%;
+   height: 468px;
+   background-color:#E5E5E5;
+   display: flex;
+   padding: 0px 50px;
+ }
+
+ .conclusion .adresses{
+   margin: 77px 35px 0px 0px;
+ }
+
+ .conclusion a{
+   display: block;
+   text-align: left;
+   margin-bottom: 16px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 24px;
+   color: #000000;
+   text-decoration: none;
+  
+ }
+
+ .conclusionNewsletterSignup{
+   margin: 77px 220px 0px 0px;
+ }
+
+ .conclusionNewsletterSignup h3{
+   text-align: left;
+   font-size: 22px;
+   line-height: 24px;
+   margin: 0px 0px 23px 0px;
+ }
+
+ .conclusionNewsletterSignup p{
+   font-size: 14px;
+   text-align: left;
+   line-height: 16px;
+   letter-spacing: 0.8px;
+   color: #A0A0A0;
+   margin: 0px 0px 91px 0px;
+ }
+
+.goUp{
+   width: 82px;
+   height: 82px;
+   background-color:#000000;
+   padding: 22px 30px 28px;
+   margin: 0px 0px 343px 507px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 16px;
+   letter-spacing: 0.8px;
+   color: #FFFFFF;
+}
+
+.epilogue{
+   display: flex;
+   justify-content: space-between;
+   font-size: 13px;
+   line-height: 15px;
+   text-align: right;
+   letter-spacing: 0.8px;
+   color: #707A7F;
+}
+
+.epilogue div:last-of-type{
+   color: #000000;
+}  
